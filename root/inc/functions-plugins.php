@@ -115,12 +115,6 @@ function {%= name %}_register_required_plugins() {
 			'slug'      => 'autodescription',
 			'required'  => false
 		),
-
-		array (
-			'name'			=> 'ACF Content Analysis for Yoast SEO',
-			'slug'			=> 'acf-content-analysis-for-yoast-seo',
-			'required'	=> false
-		),
 		array (
 			'name'		=> 'Insert Headers and Footers',
 			'slug'		=> 'insert-headers-and-footers',

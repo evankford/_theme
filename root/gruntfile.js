@@ -35,20 +35,8 @@ module.exports = function(grunt) {
         watch: {
             sass: {
                 files: ['sass/*', 'sass/**/*'],
-                tasks: ['sass']
+                tasks: ['sass', 'autoprefixer', 'cssmin']
             },
-            autoprefixer: {
-                files: 'sasssrc/style-raw.css',
-                tasks: ['autoprefixer'],
-
-            },
-            cssmin: {
-                files: 'sasssrc/style-big.css',
-                tasks: ['cssmin'],
-                options: {
-                    liveReload: true,
-                }
-            }
         }
     });
 
