@@ -119,8 +119,12 @@ function {%= name %}_register_required_plugins() {
 			'name'		=> 'Insert Headers and Footers',
 			'slug'		=> 'insert-headers-and-footers',
 			'required'=> false
+		),
+		array (
+			'name'		=> 'Safe SVG',
+			'slug'		=> 'safe-sfg',
+			'required'=> false
 		)
-		
 
 	);
 
