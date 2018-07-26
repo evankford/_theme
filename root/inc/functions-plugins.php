@@ -111,8 +111,8 @@ function {%= name %}_register_required_plugins() {
 		),
 
 		array(
-			'name'      => 'Yoast SEO',
-			'slug'      => 'wordpress-seo',
+			'name'      => 'The Seo Framework',
+			'slug'      => 'autodescription',
 			'required'  => false
 		),
 
@@ -120,6 +120,11 @@ function {%= name %}_register_required_plugins() {
 			'name'			=> 'ACF Content Analysis for Yoast SEO',
 			'slug'			=> 'acf-content-analysis-for-yoast-seo',
 			'required'	=> false
+		),
+		array (
+			'name'		=> 'Insert Headers and Footers',
+			'slug'		=> 'insert-headers-and-footers',
+			'required'=> false
 		)
 		
 
